@@ -3,4 +3,4 @@ def prime?(number)
     return false
   elsif number % 2 = 0
     return false
-  else 
+  else (2..number-1).none? { |divide| number % divide == 0}
