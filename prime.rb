@@ -1,1 +1,2 @@
-def prime?()
+def prime?(number)
+  
